@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 255, 93, 0)),
+        url("../photos/main.jpg");
+    background-size: cover;
+    height: 550px;
+}
+
+#main2 {
+    background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 1),
+            rgba(255, 255, 93, 0)),
+        url("../photos/showcase/pexels-luis-quintero-2774556.jpg");
+    background-size: cover;
+    height: 550px;
+}
+
+.bg-warning,
+.btn-warning {
+    background-color: #ff7900 !important;
+    border-color: #ff7900;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #ff7900;
+}
+
+.dropdown button:hover {
+    background-color: #ff7900 !important;
+    border-color: #ff7900 !important;
+}
+
+.dropdown .btn.show {
+    background-color: #ff7900 !important;
+    border-color: #ff7900 !important;
+}
+
+#main button:hover {
+    background-color: transparent !important;
+    border-color: #ff7900;
+}
+
+#main2 button:hover {
+    background-color: transparent !important;
+    border-color: #ff7900;
+    color: white;
+}
+
+span {
+    color: #ff7900;
+}
+
+.sponsers a{
+    color: #ff7900 !important;
+}
+footer a:hover {
+    color: #ff7900 !important;
+}
+footer button a:hover{
+    background-color: transparent !important;
+}
+
+footer button:hover {
+    border-color: #ff7900 !important;
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.bg-dark a:hover {
+    color: #ff7900 !important;
+}
+
+.bg-grey {
+    background-color: gray;
+}
+
+.bg-grey a:hover {
+    background-color: transparent;
+}
+
+.col-lg-6 a:hover {
+    border-color: black;
+    background-color: #ff7900;
+}
+
+.info h2::after {
+    content: "";
+    display: block;
+    border-radius: 5px;
+    width: 2em;
+    border-bottom: 0.1em solid #ff7900;
+}
+
+.speak h2::after {
+    content: "";
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    width: 2em;
+    border-bottom: 0.1em solid #ff7900;
+    margin: 0.5em auto 0;
+}
+
+.showcase h2::after {
+    content: "";
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    width: 2em;
+    border-bottom: 0.1em solid #ff7900;
+    margin: 0.5em auto 0;
+}
+
+.between .col-md-3 {
+    border-right: 0.01em solid gray !important;
+}
+
+i {
+    color: white !important;
+}
+
+.d-flex i {
+    font-size: 3.5em;
+}
+
+.bg-transparent i{
+    font-size: 5em !important;
+    color:gainsboro !important;
+    position: absolute !important;
+    top: 35% !important;
+    left: 35% !important;
+    
+}
+.circle{
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    display: inline-block;
+}
+.between .circle{
+        font-size: 0.8em !important;
+    }
+
+.bg-transparent{
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    opacity: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(0, 0, 0, 0.195) !important;
+}
+.speakers .col-md-3 .position-relative:hover .bg-transparent{
+    opacity: 1 !important;
+}
+.row-border{
+    border-bottom: 2px solid black;
+}
+
+.input-group-text{
+    background-color: white;
+}
+.input-icon{
+    border-right: 0;
+}
+.accordion {
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.Gallery img {
+    height: 150px;
+    width: 200px;
+    border-radius: 0.25rem;
+    padding: 0%;
+}
+
+.prev,
+.next {
+    background-color: transparent;
+    border-color: black !important;
+}
+
+.prev:hover,
+.next:hover {
+    border-color: #ff7900 !important;
+}
+
+.Gallery h2::after {
+    content: "";
+    display: block;
+    border-radius: 5px;
+    width: 2em;
+    border-bottom: 0.1em solid #ff7900;
+}
+
+.carousel-caption {
+    bottom: -10%;
+}
+
+.Gallery p {
+    left: 50% !important;
+}
+
+.carousel-indicators {
+    bottom: 5%;
+}
+
+.carousel-indicators button.active {
+    background-color: #ff7900 !important;
+}
+
+.dropdown-menu{
+    width: 150%;
+}
+
+.fa-brands{
+    font-size: 0.9em;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .between {
+        position: static !important;
+        text-align: center;
+    }
+
+    .between .container {
+        position: static !important;
+        width: 100% !important;
+        margin: auto !important;
+        transform: none !important;
+        margin-top: 5% !important;
+    }
+
+    .between .col-md-3 {
+        border-bottom: 0.01em solid gray !important;
+        border-right: 0 !important;
+        margin: 0.1em auto 0.5em;
+        width: 10em;
+    }
+    
+    
+    .info .order-2 {
+        order: 1 !important;
+    }
+    .speakers .order-2{
+        order: 1 !important;
+    }
+    .speakers .order-1{
+        order: 2 !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .dropdown-menu{
+    width: 100% !important;
+    }
+    
+    .pg-2 .order-3 {
+        order: 2 !important;
+    }
+
+    .pg-2 .order-4 {
+        order: 3 !important;
+    }
+
+    .pg-2 .order-2 {
+        order: 3 !important;
+    }
+    .between .col-md-3 {
+        border-bottom: 0.01em solid gray !important;
+        border-right: 0 !important;
+        margin: 0.1em auto 0.5em;
+        width: 10em;
+    }
+    .between {
+        position: static !important;
+        text-align: center;
+    }
+
+    .between .container {
+        position: static !important;
+        width: 100% !important;
+        margin: auto !important;
+        transform: none !important;
+        margin-top: 5% !important;
+    }
+    .next,
+    .prev {
+        top: auto;
+        left: 50%;
+        text-align: center;
+    }
+    .between .rounded-circle{
+        font-size: 0.5em !important;
+    }
+    .between .rounded-circle h2{
+        font-size: 1em !important;
+        
+    }
+}
